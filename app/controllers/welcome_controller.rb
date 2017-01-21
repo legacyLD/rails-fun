@@ -4,6 +4,7 @@ class WelcomeController < ApplicationController
   end
 
   def about
-    @language = ["javascript", "html", "css"]
+    @sitelanguages = ["ruby"]
+    @favoritelanguages = ["ruby", "javascript"]
   end
 end

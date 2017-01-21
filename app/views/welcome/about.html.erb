@@ -1,1 +1,14 @@
-<h1>@</h1>
+<h1>Languages used to create this site:</h1>
+
+<ul>
+  <% @sitelanguages.each do |language| %>
+     <li><%= language %><br/></li>
+  <% end %>
+</ul>
+
+<h2>The site developer LD's current favorite languages are:</h2>
+<ul>
+  <% @favoritelanguages.each do |language| %>
+     <li><%= language %><br/></li>
+  <% end %>
+</ul>
